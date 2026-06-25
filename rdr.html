@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rockstar Games</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="icon" href="https://www.rockstargames.com/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="assets/styles.css">
+</head>
+
+<body class="bg-black text-white">
+  
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js" integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y" crossorigin="anonymous"></script>
+    
+    <nav class="navbar navbar-expand-lg navbar-dark bg-black border-bottom">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+          <img src="assets/img/Rockstar_Games_Logo.png" alt="Logo" width="42" height="40" class="me-2">
+          <span class="text-warning">Rockstar Games</span>
+        </a>
+        <button class="navbar-toggler border-warning" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link text-warning" href="index.html">Home</a>
+            <li class="nav-item">
+              <a class="nav-link active" style="background-color: #FCAF17; color: rgb(0, 0, 0); border-radius: 4px;" href="rdr.html" aria-current="page">Red Dead Redemption</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-warning" href="gta.html">Grand Theft Auto</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-warning" href="contato.html">Contato</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <header class="hero-section">
+      <article class="hero-content">
+        <img src="assets/img/Rockstar_Toronto_Logo.png" alt="Rockstar Games Logo" class="hero-logo">
+        <div class="hero-text">
+          <h1>Bem-vindo à</h1>
+          <h2>Red Dead Redemption</h2>
+        </div>
+      </article>
+      <img src="assets/img/rdr.jpg" class="hero-background" alt="Rockstar Games Background">
+    </header>
+    
+    <section class="container marketing">
+        <!-- /.row -->
+        <!-- START THE FEATURETTES -->
+        <article class="row featurette">
+          <div class="col-md-7">
+            <h2 class="featurette-heading fw-normal lh-1" id="sobre">
+              O início no velho oeste.
+              <span class="text-warning">Red Dead Redemption 2.</span>
+            </h2>
+            <p class="lead">
+              Red Dead Redemption 2 se passa em 1899 e conta a história de Arthur Morgan, um dos 
+              membros mais importantes da gangue de Van der Linde, liderada por Dutch van der 
+              Linde. Após um assalto fracassado na cidade de Blackwater, a gangue é forçada a 
+              fugir das autoridades e de caçadores de recompensas, iniciando uma jornada pelo 
+              oeste americano.</p>
+            <p class="lead">
+              Durante a fuga, Arthur participa de diversos assaltos, conflitos e aventuras ao 
+              lado de seus companheiros, enquanto presencia o declínio gradual da gangue. Dutch 
+              começa a tomar decisões cada vez mais impulsivas e perigosas, colocando todos em 
+              risco. Ao mesmo tempo, Arthur enfrenta problemas pessoais e passa a refletir sobre 
+              suas escolhas de vida, sua lealdade à gangue e o tipo de homem que deseja ser.</p>
+            <p class="lead">
+              Conforme a história avança, a situação da gangue piora, levando a traições, perdas 
+              e confrontos. Arthur acaba se tornando uma figura central na tentativa de proteger 
+              aqueles que ainda considera família. Sua jornada é marcada por redenção, sacrifício 
+              e pela busca de um propósito em um mundo que está mudando rapidamente e deixando 
+              para trás a era dos fora da lei.
+            </p>
+            <p class="lead">
+              Algo que marca MUITO neste jogo, é a trilha sonora impactante, que contribui para
+              tornar a história deste jogo tão magnifica e impressionante. Abaixo, há umas das
+              trilhas sonoras, clique para sentir a energia do game! (Parte principal: 3:00)
+            </p>
+            <link rel="stylesheet" href="https://cdn.plyr.io/3.7.8/plyr.css" background="text-secondary">
+            <style>
+            .plyr--audio .plyr__controls {
+            background: #000000;
+            }
+            </style>
+            <audio id="player" controls>
+            <source src="assets/img/videoplayback.mp4" type="audio/mp3">
+            </audio>
+            <script src="https://cdn.plyr.io/3.7.8/plyr.polyfilled.js"></script>
+            <script>
+            const player = new Plyr('#player');
+            </script>
+          </div>
+          <div class="col-md-5 order-md-1">
+          <figure>
+            <img
+            src="assets/img/rdr2text.jpg"
+            class="d-block mx-lg-auto img-fluid"
+            width="600"
+            height="500"
+            loading="lazy"
+            >
+            <p></p>
+            <img
+            src="assets/img/rdr2text2.jpg"
+            class="d-block mx-lg-auto img-fluid"
+            width="600"
+            height="500"
+            loading="lazy"
+            >
+            <p></p>
+            <img
+            src="assets/img/rdr2text3.jpg"
+            class="d-block mx-lg-auto img-fluid"
+            width="600"
+            height="500"
+            loading="lazy"
+            >
+            <figcaption class="text-left text-warning fst-italic mt-2">
+            Algumas imagens referentes ao jogo Red Dead Redemption 2.
+            </figcaption>
+          </figure>
+          </div>
+        </article>
+        <hr class="featurette-divider" />
+        <article class="row featurette">
+          <div class="col-md-7 order-md-2">
+            <h2 class="featurette-heading fw-normal lh-1" id="historia">
+              A sequência e o fim da gangue.
+              <span class="text-warning">Red Dead Redemption 1.</span>
+            </h2>
+            <p class="lead">
+              Red Dead Redemption acontece em 1911, anos após os eventos de Red Dead Redemption 2. 
+              O protagonista é John Marston, ex-integrante da gangue de Van der Linde que tentou 
+              abandonar a vida criminosa para viver em paz com sua esposa Abigail e seu filho Jack.
+            </p>
+            <p class="lead">
+              Entretanto, agentes do governo sequestram sua família e obrigam John a caçar seus 
+              antigos companheiros de gangue em troca da liberdade deles. Durante sua jornada, ele 
+              percorre diversas regiões do oeste americano e do México em busca dos últimos membros 
+              sobreviventes da antiga gangue.
+            </p>
+            <p class="lead">
+              Ao longo da história, John enfrenta criminosos, políticos corruptos, revolucionários 
+              e militares, enquanto tenta cumprir sua missão e recuperar sua família. Depois de 
+              eliminar seus antigos parceiros e acreditar que finalmente poderá viver em paz, John 
+              retorna para seu rancho e reencontra sua família.
+            </p>
+            <p class="lead">
+              Porém, o governo o trai. Em um dos momentos mais marcantes da história dos 
+              videogames, John enfrenta sozinho um grande grupo de agentes federais para dar 
+              tempo de sua família escapar. Ele é morto em uma última tentativa de proteger 
+              aqueles que ama. Anos depois, seu filho Jack Marston busca vingança contra o 
+              responsável pela morte de seu pai, encerrando a história da família Marston e 
+              simbolizando o fim definitivo do Velho Oeste.
+            </p>
+          </div>
+          <div class="col-md-5 order-md-1">
+          <figure>
+            <img
+            src="assets/img/rdr1text1.jpg"
+            class="d-block mx-lg-auto img-fluid"
+            width="600"
+            height="500"
+            loading="lazy"
+            >
+            <p></p>
+            <img
+            src="assets/img/rdr1text2.jpg"
+            class="d-block mx-lg-auto img-fluid"
+            width="600"
+            height="500"
+            loading="lazy"
+            >
+            <p></p>
+            <img
+            src="assets/img/rdr1text3.jpg"
+            class="d-block mx-lg-auto img-fluid"
+            width="600"
+            height="500"
+            loading="lazy"
+            >
+            <figcaption class="text-left text-warning fst-italic mt-2">
+            Algumas imagens referentes ao jogo Red Dead Redemption 1.
+            </figcaption>
+          </figure>
+          </div>
+        </article>
+        <hr class="featurette-divider" />
+        <!-- /END THE FEATURETTES -->
+    </section>
+
+    <section class="container">
+          <h2 class="fw-bold text-body-white">
+              Conheça o Universo RED DEAD REDEMPTION
+            </h2>
+            <p class="text-body-white">
+              Conheça os principais personagens do universo RDR, contendo tanto personagens do
+              primeiro game, quanto do segundo. Abaixo, há cards com os nomes dos mesmos, e uma
+              explicação referente ao que se passa com eles dentro dos jogos.
+            </p>
+          <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+            <div class="col">
+              <div class="card border-warning bg-dark text-white mb-3">
+                <img
+                src="assets/img/arthurmorgan.jpg"
+                class="card-img-top"
+                alt="Imagem"
+                width="100%"
+                height="225"
+                style="object-fit: cover;">
+                <div class="card-body">
+                    <h5 class="card-title text-warning">Arthur Morgan</h5>
+                  <p class="card-text">
+                    Arthur Morgan é um experiente fora da lei e um membro leal da gangue Van der 
+                    Linde. Sua jornada aborda temas de honra, redenção e escolhas difíceis em um 
+                    mundo em constante mudança.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card border-warning bg-dark text-white mb-3">
+                <img
+                src="assets/img/jonhmarston.jpg"
+                class="card-img-top"
+                alt="Imagem"
+                width="100%"
+                height="225"
+                style="object-fit: cover;">
+                <div class="card-body">
+                    <h5 class="card-title text-warning">John Marston</h5>
+                  <p class="card-text">
+                    John Marston é um ex-fora da lei que tenta deixar seu passado criminoso para 
+                    trás. Ele luta para proteger sua família enquanto enfrenta as consequências de 
+                    sua vida anterior.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card border-warning bg-dark text-white mb-3">
+                <img
+                src="assets/img/dutch.jpg"
+                class="card-img-top"
+                alt="Imagem"
+                width="100%"
+                height="225"
+                style="object-fit: cover;">
+                <div class="card-body">
+                    <h5 class="card-title text-warning">Dutch van der Linde</h5>
+                  <p class="card-text">
+                    Dutch van der Linde é o carismático líder da gangue e uma figura paterna para 
+                    muitos membros. Seus ideais entram em conflito com a realidade à medida que seus 
+                    planos começam a fracassar.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card border-warning bg-dark text-white mb-3">
+                <img
+                src="assets/img/sadieadler.jpg"
+                class="card-img-top"
+                alt="Imagem"
+                width="100%"
+                height="225"
+                style="object-fit: cover;">
+                <div class="card-body">
+                    <h5 class="card-title text-warning">Sadie Adler</h5>
+                  <p class="card-text">
+                    Sadie Adler se transforma de uma viúva em luto em uma das pistoleiras mais 
+                    destemidas do Velho Oeste. Sua coragem e determinação a tornam uma importante 
+                    aliada.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card border-warning bg-dark text-white mb-3">
+                <img
+                src="assets/img/micahbell.jpg"
+                class="card-img-top"
+                alt="Imagem"
+                width="100%"
+                height="225"
+                style="object-fit: cover;">
+                <div class="card-body">
+                    <h5 class="card-title text-warning">Micah Bell</h5>
+                  <p class="card-text">
+                    Micah Bell é um fora da lei impiedoso e imprevisível que causa conflitos dentro 
+                    da gangue. Sua ambição e egoísmo acabam gerando consequências graves para todos.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card border-warning bg-dark text-white mb-3">
+                <img
+                src="assets/img/charlessmith.jpg"
+                class="card-img-top"
+                alt="Imagem"
+                width="100%"
+                height="225"
+                style="object-fit: cover;">
+                <div class="card-body">
+                    <h5 class="card-title text-warning">Charles Smith</h5>
+                  <p class="card-text">
+                    Charles Smith é um habilidoso caçador e rastreador conhecido por sua sabedoria 
+                    e lealdade. Ele frequentemente atua como uma voz de equilíbrio nos momentos 
+                    mais difíceis.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+    </section>
+
+    <div class="container">
+      <footer class="d-flex flex-row justify-content-between align-items-center py-3 my-4 border-top">
+        <p class="mb-0 text-body-color">
+          &copy; 2026 Rockstar Games Company, criado por Wesley Luza.
+        </p>
+        <a href="index.html" class="d-flex align-items-center link-body-emphasis text-decoration-none">
+          <img src="assets/img/Rockstar_Games_Logo.png" class="bi me-2" width="42" height="40" alt="Logo">
+        </a>
+        <ul class="nav justify-content-end">
+          <li class="nav-item">
+            <a href="index.html" class="nav-link px-2 text-warning">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="rdr.html" class="nav-link px-2 text-warning">Red Dead Redemption</a>
+          </li>
+          <li class="nav-item">
+            <a href="gta.html" class="nav-link px-2 text-warning">Grand Theft Auto</a>
+          </li>
+          <li class="nav-item">
+            <a href="contato.html" class="nav-link px-2 text-warning">Contato</a>
+          </li>
+        </ul>
+      </footer>
+    </div>
+</body>
+</html>
